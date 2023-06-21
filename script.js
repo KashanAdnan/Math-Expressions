@@ -27,7 +27,7 @@ const multiply = () => {
   let num2 = +document.getElementById("number2").value;
   let result = document.getElementById("result");
   const newNum = num1 * num2;
-  result.innerHTML = `${num1} %num2} =  ${newNum} `;
+  result.innerHTML = `${num1} × $num2} =  ${newNum} `;
 };
 
 const modules = () => {
